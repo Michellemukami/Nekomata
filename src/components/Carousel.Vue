@@ -32,7 +32,7 @@
      <div class="absolute top-28 left-64 w-96 h-60 bg-white bg-opacity-80 backdrop-blur-lg rounded drop-shadow-lg">
       <div class="p-5 pb-2 pt-8">
         <p class="text-gray-900 text-sm font-semibold">Feature Manga</p>
-        <h1 class="text-5xl text-gray-900 font-bold">NARUTO</h1>
+        <h1 class="text-5xl text-gray-900 font-bold body-font font-oswald">NARUTO</h1>
         <p class="text-sm pt">Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village...</p>
         <div class="pt-4 flex justify-end">
           <button class="p-3 pl-5 pr-5 text-sm text-gray-50 bg-red-700">Read more</button>
