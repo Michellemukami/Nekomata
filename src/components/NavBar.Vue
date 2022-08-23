@@ -36,13 +36,49 @@
                             </a>
 
                         </div>
-                        <div v-if="notificationOpen" class="z-10 origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div v-if="notificationOpen" class="z-10 origin-top-right absolute right-0 mt-2 w-60 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                             <div class="py-1" role="none">
                                 <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-                                <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Profile</a>
-                                <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Bookmaked</a>
-                                <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Setting</a>
-                                <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Log out</a>
+                                <div class="flex inline-block px-4 py-2">
+                                    <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/onep.jpg">
+                                    <div class="pl-1 pt-1">
+                                        <p class="text-sm text-gray-900 font-semibold">One Piece</p>
+                                        <div class="flex">
+                                            <p class="text-sm text-gray-900 font-medium">Latest:</p><a class="text-sm pl-0.5 text-red-800">chapter 500</a>
+                                        </div>
+                                        <p class="text-xs text-gray-900 font-light">10 hrs ago</p>
+                                    </div>
+                                </div>
+                                <div class="flex inline-block px-4 py-2">
+                                    <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/ainz.jpg">
+                                    <div class="pl-1 pt-1">
+                                        <p class="text-sm text-gray-900 font-semibold">Overlord VI</p>
+                                        <div class="flex">
+                                            <p class="text-sm text-gray-900 font-medium">Latest:</p><a class="text-sm pl-0.5 text-red-800">chapter 250</a>
+                                        </div>
+                                        <p class="text-xs text-gray-900 font-light">2 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="flex inline-block px-4 py-2">
+                                    <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/jjk.jpg">
+                                    <div class="pl-1 pt-1">
+                                        <p class="text-sm text-gray-900 font-semibold">Jujutsu Kiasen</p>
+                                        <div class="flex">
+                                            <p class="text-sm text-gray-900 font-medium">Latest:</p><a class="text-sm pl-0.5 text-red-800">chapter 300</a>
+                                        </div>
+                                        <p class="text-xs text-gray-900 font-light">2 days ago</p>
+                                    </div>
+                                </div>
+                                <div class="flex inline-block px-4 py-2">
+                                    <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/balls.jpg">
+                                    <div class="pl-1 pt-1">
+                                        <p class="text-sm text-gray-900 font-semibold">Dragon Balls z</p>
+                                        <div class="flex">
+                                            <p class="text-sm text-gray-900 font-medium">Latest:</p><a class="text-sm pl-0.5 text-red-800">chapter 300</a>
+                                        </div>
+                                        <p class="text-xs text-gray-900 font-light">3 days ago</p>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>

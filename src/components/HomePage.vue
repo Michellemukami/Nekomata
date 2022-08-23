@@ -9,10 +9,10 @@
 
             </div>
             <div class="flex flex-row p-7 pl-8">
-                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-7">
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-7">
                     <div v-for="manga in mangas" :key="manga.id">
                         <a href="#">
-                            <img alt="Placeholder" class="transform transition duration-500 hover:scale-105 block h-48 w-40 rounded-sm" :src="manga.image">
+                            <img alt="Placeholder" class="transform transition duration-500 hover:scale-105 block h-48 w-36 rounded-sm" :src="manga.image">
                             <p class="text-gray-50 text-sm pt-2">{{manga.title}}</p>
                         </a>
                     </div>
@@ -35,11 +35,11 @@
                         background-size: cover;
                         background-blend-mode: multiply;">
                         <div>
-                            <div class="mb-8 flex justify-between">
+                            <div class="mb-8 flex w-52 justify-between">
                                 <p class="text-md text-gray-50 flex items-center">
                                     One Piece
                                 </p>
-                                <p class="text-md text-gray-50 pl-32 flex items-center">01</p>
+                                <p class="text-md text-gray-50 flex items-center">01</p>
                             </div>
                         </div>
                     </div>
@@ -56,9 +56,9 @@
                         <div>
                             <div class="mb-8 flex justify-between">
                                 <p class="text-md text-gray-50 flex items-center">
-                                    Jujutsu Kiasen
+                                    Jujutsu kaisen
                                 </p>
-                                <p class="text-md text-gray-50 pl-32 flex items-center">02</p>
+                                <p class="text-md text-gray-50 flex items-center">02</p>
                             </div>
                         </div>
                     </div>
