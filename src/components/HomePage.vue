@@ -11,10 +11,13 @@
             <div class="flex flex-row p-7 pl-8">
                 <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-7">
                     <div v-for="manga in mangas" :key="manga.id">
-                        <a href="#">
-                            <img alt="Placeholder" class="transform transition duration-500 hover:scale-105 block h-48 w-36 rounded-sm" :src="manga.image">
+                        <div class="relative overflow-hidden bg-no-repeat bg-cover transform transition duration-500 hover:scale-105">
+                            <a href="#">
+                                <img alt="Placeholder" class="block h-48 w-36 rounded-sm" :src="manga.image">
+                                <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-50 transition duration-300 ease-in-out bg-gray-800 rounded-sm"></div>
+                            </a>
+                        </div>
                             <p class="text-gray-50 text-sm pt-2">{{manga.title}}</p>
-                        </a>
                     </div>
                 </div>
             </div>
