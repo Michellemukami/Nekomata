@@ -13,12 +13,17 @@
                     <div v-for="manga in mangas" :key="manga.id">
                         <div class="relative overflow-hidden bg-no-repeat bg-cover transform transition duration-500 hover:scale-105">
                             <RouterLink to="/mangadetails" href="#">
-                            
                                 <img alt="Placeholder" class="block h-48 w-36 rounded-sm" :src="manga.image">
                                 <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-50 transition duration-300 ease-in-out bg-gray-800 rounded-sm"></div>
+                                <div class="absolute top-0 overflow-hidden bg-fixed opacity-0 hover:opacity-50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                                    </svg>
+
+                                </div>
                             </RouterLink>
                         </div>
-                            <p class="text-gray-50 text-sm pt-2">{{manga.title}}</p>
+                        <p class="text-gray-50 text-sm pt-2">{{manga.title}}</p>
                     </div>
                 </div>
             </div>
@@ -67,6 +72,64 @@
                         </div>
                     </div>
                 </div>
+                <div class="max-w-sm w-full lg:max-w-full lg:flex">
+
+                    <div class="h-48 lg:h-auto lg:w-24 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('/src/assets/ainz.jpg')">
+                    </div>
+                    <div class="h-20 border-r border-b border-l border-gray-800 lg:border-l-0 lg:border-t lg:border-gray-800 bg-gray-800 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal bg-center bg-no-repeat bg-cover p-4 rounded-lg shadow md:px-6 md:py-8 bg-gray-700 w-full antialiased" style="
+                        background-image: url('/src/assets/ainz.jpg');
+                        background-repeat: no-repat;
+                        background-size: cover;
+                        background-blend-mode: multiply;">
+                        <div>
+                            <div class="mb-8 flex justify-between">
+                                <p class="text-md text-gray-50 flex items-center">
+                                    Overlord
+                                </p>
+                                <p class="text-md text-gray-50 flex items-center">03</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-sm w-full lg:max-w-full lg:flex">
+
+                    <div class="h-48 lg:h-auto lg:w-24 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('/src/assets/balls.jpg')">
+                    </div>
+                    <div class="h-20 border-r border-b border-l border-gray-800 lg:border-l-0 lg:border-t lg:border-gray-800 bg-gray-800 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal bg-center bg-no-repeat bg-cover p-4 rounded-lg shadow md:px-6 md:py-8 bg-gray-700 w-full antialiased" style="
+                        background-image: url('/src/assets/balls.jpg');
+                        background-repeat: no-repat;
+                        background-size: cover;
+                        background-blend-mode: multiply;">
+                        <div>
+                            <div class="mb-8 flex justify-between">
+                                <p class="text-md text-gray-50 flex items-center">
+                                    Dragon Ball
+                                </p>
+                                <p class="text-md text-gray-50 flex items-center">04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-sm w-full lg:max-w-full lg:flex">
+
+                    <div class="h-48 lg:h-auto lg:w-24 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('/src/assets/bebop.jpg')">
+                    </div>
+                    <div class="h-20 border-r border-b border-l border-gray-800 lg:border-l-0 lg:border-t lg:border-gray-800 bg-gray-800 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal bg-center bg-no-repeat bg-cover p-4 rounded-lg shadow md:px-6 md:py-8 bg-gray-700 w-full antialiased" style="
+                        background-image: url('/src/assets/bebop.jpg');
+                        background-repeat: no-repat;
+                        background-size: cover;
+                        background-blend-mode: multiply;">
+                        <div>
+                            <div class="mb-8 flex justify-between">
+                                <p class="text-md text-gray-50 flex items-center">
+                                    Cowboy Bebop
+                                </p>
+                                <p class="text-md text-gray-50 flex items-center">05</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
             </div>
         </div>
     </div>
