@@ -7,13 +7,13 @@
                 <div class="px-6 pt-20">
                     <div class="flex">
                         <div class="w-full pt-10 px-4 flex justify-center">
-                            <div class="h-24 w-24 md rounded-full relative avatar flex items-end justify-end min-w-max flex ring-white">
+                            <div class="h-24 w-24 md rounded-full relative avatar flex items-end justify-end min-w-max ring-white">
                                 <img alt="..." src="/src/assets/howl.png" class="h-40 w-40 rounded-full">
                             </div>
                         </div>
                     </div>
                     <div class="text-center mt-4 pb-6">
-                        <h3 class="text-xl font-semibold leading-normal mb-2 text-gray-50 mb-2">
+                        <h3 class="text-xl font-semibold leading-normal text-gray-50 mb-2">
                             Archmage
                         </h3>
                         <div class="flex justify-between mb-2 text-gray-100 mt-5">
@@ -126,7 +126,7 @@
                     <label class="block pr-10 text-gray-50 text-sm font-bold mb-2" for="password">
                         Display Name
                     </label>
-                    <input class="shadow shadow bg-gray-800 appearance-none border pl-5 border-red rounded w-1/2 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Archmage">
+                    <input class="shadow bg-gray-800 appearance-none border pl-5 border-red rounded w-1/2 text-grey-darker mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Archmage">
 
                 </div>
                 <div class="mb-4 flex justify-between">

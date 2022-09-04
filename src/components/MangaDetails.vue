@@ -12,7 +12,7 @@
 
                 <div class="flex flex-wrap break-words px-5 py-5 lg:py-16 lg:px-24 mx-auto justify-center">
 
-                    <div class="card relative flex flex-col min-w-0 break-words bg-gray-100 w-5/6 pt-10 pl-10 pr-10 shadow-xl rounded-lg">
+                    <div class="card relative flex flex-col min-w-0 break-words bg-gray-100 w-5/6 h-1/3 p-10 shadow-xl rounded-lg">
                         <div class="px-6">
 
                             <div class="mx-auto lg:w-full flex flex-wrap">
@@ -27,16 +27,16 @@
                                     <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">ONE PIECE</h1>
                                     <div>
                                         <div class="flex pb-1">
-                                            <p class="text-gray-900">Genre:</p>
-                                            <p class="text-red-700 pl-32">Fantasy</p>
+                                            <p class="text-gray-900 text-base">Genre:</p>
+                                            <p class="text-red-700 pl-32 text-base">Fantasy</p>
                                         </div>
                                         <div class="flex pb-1">
-                                            <p class="text-gray-900">Artist:</p>
-                                            <p class="text-red-700 pl-32">Oda Eiichiro</p>
+                                            <p class="text-gray-900 text-base">Artist:</p>
+                                            <p class="text-red-700 pl-32 text-base">Oda Eiichiro</p>
                                         </div>
                                         <div class="flex pb-1">
-                                            <p class="text-gray-900">Last Update:</p>
-                                            <p class="text-red-700 pl-20">Vol. 20 chap 9</p>
+                                            <p class="text-gray-900 text-base">Last Update:</p>
+                                            <p class="text-red-700 pl-20 text-base">Vol. 20 chap 9</p>
                                         </div>
 
                                     </div>

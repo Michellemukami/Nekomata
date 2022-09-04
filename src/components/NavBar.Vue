@@ -86,6 +86,12 @@
                                     </div>
                                 </div>
 
+                                <div class="border-t-2 border-gray-200 mt-2 mb-2 ">
+                                    <div class="flex justify-center pt-1">
+                                    
+                                        <p class="text-gray-700">View all (5)</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
