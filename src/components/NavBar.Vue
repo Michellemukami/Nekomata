@@ -17,7 +17,7 @@
             <ul class="flex flex-col p-4 mt-4 bg-transparent rounded-lg border border-gray-100 md:flex-row md:space-x-7 md:mt-0 md:text-sm md:font-medium md:border-0">
 
                 <div class="relative group">
-                    <span href="#" class="font-semibold text-lg body-font font-oswald block py-2 pr-4 pl-3 text-gray-50 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-50 md:dark:hover:text-white dark:hover:bg-gray-700 darktext-white md:dark:hover:bg-transparent">Home</span>
+                    <RouterLink class="font-semibold text-lg body-font font-oswald block py-2 pr-4 pl-3 text-gray-50 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-50 md:dark:hover:text-white dark:hover:bg-gray-700 darktext-white md:dark:hover:bg-transparent" to="/">Home</RouterLink>
                     <span class="absolute -bottom-1 left-0 w-0 h-1 bg-gray-900 transition-all group-hover:w-full"></span>
                 </div>
                 <div class="relative group">
@@ -45,7 +45,7 @@
                         <div v-if="notificationOpen" class="z-10 origin-top-right absolute right-0 mt-2 w-60 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                             <div class="py-1" role="none">
                                 <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-                                <div class="flex px-4 py-2">
+                                <div class="flex px-4 py-2 hover:bg-gray-100">
                                     <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/onep.jpg">
                                     <div class="pl-1 pt-1">
                                         <p class="text-sm text-gray-900 font-semibold">One Piece</p>
@@ -55,7 +55,7 @@
                                         <p class="text-xs text-gray-900 font-light">10 hrs ago</p>
                                     </div>
                                 </div>
-                                <div class="flex px-4 py-2">
+                                <div class="flex px-4 py-2 hover:bg-gray-100">
                                     <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/ainz.jpg">
                                     <div class="pl-1 pt-1">
                                         <p class="text-sm text-gray-900 font-semibold">Overlord VI</p>
@@ -65,7 +65,7 @@
                                         <p class="text-xs text-gray-900 font-light">2 days ago</p>
                                     </div>
                                 </div>
-                                <div class="flex px-4 py-2">
+                                <div class="flex px-4 py-2 hover:bg-gray-100">
                                     <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/jjk.jpg">
                                     <div class="pl-1 pt-1">
                                         <p class="text-sm text-gray-900 font-semibold">Jujutsu Kiasen</p>
@@ -75,7 +75,7 @@
                                         <p class="text-xs text-gray-900 font-light">2 days ago</p>
                                     </div>
                                 </div>
-                                <div class="flex px-4 py-2">
+                                <div class="flex px-4 py-2 hover:bg-gray-100">
                                     <img class="h-16 w-14 pl-0.5 pr-1 rounded-md" src="/src/assets/balls.jpg">
                                     <div class="pl-1 pt-1">
                                         <p class="text-sm text-gray-900 font-semibold">Dragon Balls z</p>
