@@ -1,6 +1,6 @@
 
 <!-- ABOUT THE PROJECT -->
-## Nekoamta 
+## Nekoamanga
 ![1661362193829](https://user-images.githubusercontent.com/51047362/186485364-8e48ae9e-7864-4a1f-b13b-5c625f1da156.jpg)
 
 
